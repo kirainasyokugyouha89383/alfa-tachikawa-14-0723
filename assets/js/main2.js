@@ -80,7 +80,7 @@ const app = Vue.createApp({
       /* 最終ステージの入力を判定します。 */
       if ( this.clear[stage] === true && final === 'final' ) {
         window.location.href = 'final1.html';
-      }else( window.location.href = 'final2.html';
+      }else{ window.location.href = 'final2.html';}
     },
     /* クリア画面「次のステージへ」ボタンをクリックした時の動作を設定します
     *  clearをfalseにしてクリア画面を非表示にします。
