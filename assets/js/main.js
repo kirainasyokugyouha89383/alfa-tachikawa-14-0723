@@ -69,7 +69,7 @@ const app = Vue.createApp({
   },
   methods: {
     /* 「送信」ボタンをクリックした場合の動作です。 */
-    answerInput(event, stage, number, final1) {
+    answerInput(event, stage, number, final) {
       /* answerをtrueまたはfalseにします。 */
       this.answer[stage][number-1] = event;
       /* STAGEのすべての問題がtrueか調べてclearの値を変更します。*/
@@ -78,7 +78,7 @@ const app = Vue.createApp({
       });
       this.clear[stage] = result;
       /* 最終ステージの入力を判定します。 */
-      if ( this.clear[stage] === true && final1 === 'final1' ) {
+      if ( this.clear[stage] === true && final === 'final' ) {
         window.location.href = 'final1.html';
       }
     },
