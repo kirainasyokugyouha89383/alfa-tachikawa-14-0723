@@ -320,7 +320,7 @@ button {
   left: calc(50% - 95px);
   display: block;
   content: '';
-  background-color: #fff;
+  background-color: #40E0D0;
   height: 2.6px;
   width: 190px;
 }
