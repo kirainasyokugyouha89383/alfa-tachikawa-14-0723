@@ -238,15 +238,15 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #0F1827;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #40E0D0;
 }
 
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: #0F1827;
 }
 
 .bg-color--darkgrey{
@@ -278,7 +278,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #d9e021;
+  background-color: #40E0D0;
   margin: 0 -20px 20px -20px;
 }
 
@@ -288,11 +288,11 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color: #40E0D0;
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #fff;
+  color: #FFF;
 }
 
 .section-title--keycolor {
