@@ -250,6 +250,11 @@ button {
   background-color: #e6e6e6;
 }
 
+.bg-color--darkgrey{
+  background-color: #0F1827;
+}
+
+
 /*********************
 * title
 **********************/
@@ -328,7 +333,9 @@ button {
   font-style: italic;
   font-weight: normal;
 }
-
+.story{
+ color: white;
+}
 /*************************
 * Button
 *************************/
