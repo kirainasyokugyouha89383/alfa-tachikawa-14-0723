@@ -78,7 +78,7 @@ button {
   border: none;
   margin: 0 auto;
   background-color: #04E0D0;
-  color: #FF0000;
+  color: #0F1827;
   width: 287px;
   height: 55px;
 }
@@ -197,7 +197,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #FF5500;
+  fill: #40E0D0;
   width: 12px;
   height: 24px;
 }
@@ -238,7 +238,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #FFFF00;
+  background-color: #0F1827;
 }
 
 .bg-color--subcolor {
@@ -246,11 +246,11 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #00AAFF;
+  background-color: #0F1827;
 }
 
 .bg-color--darkgrey{
-  background-color: #AA00FF;
+  background-color: #0F1827;
 }
 
 
