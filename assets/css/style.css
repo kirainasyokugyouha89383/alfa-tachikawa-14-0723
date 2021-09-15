@@ -57,7 +57,7 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder {
-  color: #FFF;
+  color: #FF0000;
 }
 
 :-ms-input-placeholder {
@@ -65,7 +65,7 @@ input[type=text] {
 }
 
 ::-ms-input-placeholder {
-  color: #FFF;
+  color: #FF5500;
 }
 
 ::placeholder {
@@ -146,7 +146,7 @@ button {
 }
 
 .card {
-  background-color: #FFF;
+  background-color: #FFAA00;
   margin-bottom: 20px;
   height: 100%;
 }
@@ -174,7 +174,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #FFFFFF;
+  background-color: #FFFF00;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -242,7 +242,7 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #FFF;
+  background-color: #AAFF00;
 }
 
 .bg-color--gray {
@@ -288,15 +288,15 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #FFF;
+  background-color: #55FF00;
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #FFF;
+  color: #00FFAA;
 }
 
 .section-title--keycolor {
-  background-color: #FFF;
+  background-color: #00FFFF;
 }
 
 .section-title--story {
@@ -343,7 +343,7 @@ button {
   text-decoration: none;
   cursor: pointer;
   background-color: #40E0D0;
-  color: #fff;
+  color: #00AAFF;
   font-size: 24px;
   line-height: 1.54167;
   text-align: center;
@@ -362,7 +362,7 @@ button {
   position: absolute;
   top: calc(50% - 12px);
   right: 15px;
-  fill: #fff;
+  fill: #0055FF;
   width: 12px;
   height: 24px;
 }
@@ -437,7 +437,7 @@ button {
 }
 
 .stage-column__container + .stage-column__container {
-  border-top: 2px solid #fff;
+  border-top: 2px solid #0000FF;
 }
 
 .answer {
@@ -460,7 +460,7 @@ button {
 }
 
 .clear-message {
-  background-color: #FFF;
+  background-color: #AA00FF;
   padding: 30px 30px 60px;
   position: relative;
 }
