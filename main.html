@@ -33,22 +33,22 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 1-</span>さぁゲームを始めよう！</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 1-</span>宝の隠れた金庫を特定しろ！</h2>
             <p class="text-center">AM　0:05<br>
-              宝があるという地下はからくり迷路になっているためか<br>
-              地図には不思議な字体と絵が並んでいる...<br>
-              この謎を解いて宝の隠れている部屋を見つけ出そう<br>
-              宝の隠れた金庫を特定しろ。</p>
+              宝があるという地下まではハッキングをしたことで無事に辿り着けた<br>
+              だが地下の部屋の扉には全て誰かの言葉らしき文がかかれているらしい…<br>
+              このままでは埒が明かない<br>
+              この謎を解いて宝の隠れている部屋を見つけ出そう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
             <div class="container">
               <figure class="image__container">
                 <img src="assets/images/stage.png" alt="">
               </figure>
-              <p class="text-center">宝の隠れた金庫を特定しろ。<br>
-              A 「財を積み上げれば愚か者どもは私に群がり、盲目に信じ込む。ならばその愚か者どもを利用すればいい。そうすれば奴らにも価値が生まれるだろう」<br>
-              B 「なぜこの世は強者のみを優遇し、苦しんでいる者たちには見て見ぬふりを決め込むのか。であれば世界の代わりに私が救おう。待っていてくれ」<br>
-              C 「太陽が顔を出せば元気が湧き上がり、月が挨拶すれば安らぎの時が訪れる。私たち警察はルールを設けることでそんなありふれた日々を守りたい」<br>
-              D 「心配いらねぇよ、あの人の場所なら警察が来ることなんてあり得ない。なんかあっても解決してくれるし、金も貸してくれるからな。何してんだよ。ほら、行こうぜ！」</p>                
+              <p class="text-center">扉にはそれぞれ<br>
+                A 「財を積み上げれば愚か者どもは私に群がり、盲目に信じ込む。ならばその愚か者どもを利用すればいい。そうすれば奴らにも価値が生まれるだろう」<br>
+                B 「なぜこの世は強者のみを優遇し、苦しんでいる者たちには見て見ぬふりを決め込むのか。であれば世界の代わりに私が救おう。待っていてくれ」<br>
+                C 「太陽が顔を出せば元気が湧き上がり、月が挨拶すれば安らぎの時が訪れる。私たち警察はルールを設けることでそんなありふれた日々を守りたい」<br>
+                D 「心配いらねぇよ、あの人の場所なら警察が来ることなんてあり得ない。なんかあっても解決してくれるし、金も貸してくれるからな。何してんだよ。ほら、行こうぜ！」とある</p>                
  <!--  YouTube貼り付け
               <div class="youtube__container">
                 <div class="youtube">
@@ -91,7 +91,7 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">お宝のありかはBの部屋だった<br>
+              <div class="clear-message__content">お宝のありかはCの部屋だった<br>
                 さぁこのままお宝を取ってしまおう!<br>
                 残りの謎をとき、次に進もう！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
@@ -114,9 +114,9 @@ Youtube貼り付けここまで -->
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 2-</span>宝のある金庫に潜入しよう！</h2>
               <p class="text-center">AM0:10<br>
-                やっと辿り着いた金庫の前には<br>
-                謎の記号と数字が並んでいた！<br>
-                これらを解くことで、宝を手に入れることができる！</p>
+                お宝はもう目前、ただ扉には鍵穴はなく<br>
+                不思議な記号と横の方にダイヤル錠が目にはいる…<br>
+                謎を解きお宝の隠された金庫をあけよう！</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -204,10 +204,11 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 3-</span>地下から脱出しよう！</h2>
+            <p class="text-center">……！！
+              館は勿論のこと地図にもからくりがあったらしい
+              施錠されていないドアや地図上の謎が変わってしまった…
+              解いて早く1階に向かわせよう</p>
             <figure class="image__container">
               <img src="assets/images/stage.png" alt="">
             </figure>
