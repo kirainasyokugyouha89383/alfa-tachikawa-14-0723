@@ -238,7 +238,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #0F1827;
+  background-color: #FFF;
 }
 
 .bg-color--subcolor {
@@ -246,7 +246,7 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #0F1827;
+  background-color: #FFF;
 }
 
 .bg-color--darkgrey{
@@ -415,7 +415,7 @@ button {
 ********************/
 .story__note {
   margin: 0;
-  color: WHITE;
+  color: #40E0D0;
 }
 
 .story__note__outer {
