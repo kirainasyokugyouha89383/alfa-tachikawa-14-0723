@@ -57,7 +57,7 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder {
-  color: #40E0D0;
+  color: #FFF;
 }
 
 :-ms-input-placeholder {
@@ -78,7 +78,7 @@ button {
   border: none;
   margin: 0 auto;
   background-color: #04E0D0;
-  color: #0F1827;
+  color: #FF0000;
   width: 287px;
   height: 55px;
 }
@@ -197,7 +197,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #0F1827;
+  fill: #FF5500;
   width: 12px;
   height: 24px;
 }
@@ -238,7 +238,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #0F1827;
+  background-color: #FFFF00;
 }
 
 .bg-color--subcolor {
@@ -246,11 +246,11 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #0F1827;
+  background-color: #00AAFF;
 }
 
 .bg-color--darkgrey{
-  background-color: #0F1827;
+  background-color: #AA00FF;
 }
 
 
