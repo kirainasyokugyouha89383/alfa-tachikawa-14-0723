@@ -57,15 +57,15 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder {
-  color: #FF0000;
+  color: #FFF;
 }
 
 :-ms-input-placeholder {
-  color: #40E0D0;
+  color: #40E0DO;
 }
 
 ::-ms-input-placeholder {
-  color: #FF5500;
+  color: #FFF;
 }
 
 ::placeholder {
@@ -146,7 +146,7 @@ button {
 }
 
 .card {
-  background-color: #FFAA00;
+  background-color: #FFF;
   margin-bottom: 20px;
   height: 100%;
 }
@@ -174,7 +174,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #FFFF00;
+  background-color: #FFF;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -242,7 +242,7 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #AAFF00;
+  background-color: #FFF;
 }
 
 .bg-color--gray {
@@ -288,15 +288,15 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #55FF00;
+  background-color: #40E0D0;
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #00FFAA;
+  color: #FFF;
 }
 
 .section-title--keycolor {
-  background-color: #00FFFF;
+  background-color: #40E0D0;
 }
 
 .section-title--story {
@@ -343,7 +343,7 @@ button {
   text-decoration: none;
   cursor: pointer;
   background-color: #40E0D0;
-  color: #00AAFF;
+  color: #FFF;
   font-size: 24px;
   line-height: 1.54167;
   text-align: center;
@@ -362,7 +362,7 @@ button {
   position: absolute;
   top: calc(50% - 12px);
   right: 15px;
-  fill: #0055FF;
+  fill: #FFF;
   width: 12px;
   height: 24px;
 }
@@ -437,7 +437,7 @@ button {
 }
 
 .stage-column__container + .stage-column__container {
-  border-top: 2px solid #0000FF;
+  border-top: 2px solid #FFF;
 }
 
 .answer {
@@ -460,7 +460,7 @@ button {
 }
 
 .clear-message {
-  background-color: #AA00FF;
+  background-color: #FFF;
   padding: 30px 30px 60px;
   position: relative;
 }
