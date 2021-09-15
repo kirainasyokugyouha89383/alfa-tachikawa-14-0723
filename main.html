@@ -33,22 +33,23 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 1-</span>宝の隠れた金庫を特定しろ！</h2>
-            <p class="text-center">AM　0:05<br>
-              宝があるという地下まではハッキングをしたことで無事に辿り着けた<br>
-              だが地下の部屋の扉には全て誰かの言葉らしき文がかかれているらしい…<br>
-              このままでは埒が明かない<br>
-              この謎を解いて宝の隠れている部屋を見つけ出そう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
+            <p class="text-center">AM　0:00<br>
+              宝があるという地下まではハッキングをしたことで無事に辿り着けた。<br>
+              道中で手に入れた地図によると地下は迷路になっていて東西南北にそれぞれ部屋があるらしい。<br>
+     　　　　       地図で確認すると今入ってきた部屋は北側の部屋だった。</p>
             <div class="container">
               <figure class="image__container">
                 <img src="assets/images/ステップ 1.png" alt="">
               </figure>
-              <p class="text-center">扉にはそれぞれ<br>
-                A 「財を積み上げれば愚か者どもは私に群がり、盲目に信じ込む。<br>ならばその愚か者どもを利用すればいい。そうすれば奴らにも価値が生まれるだろう」<br><br>
+              <p class="text-center">地図に記されている全ての部屋を確認してもらうと、扉にはそれぞれ<br>
+                A 「金を積めば愚か者どもは私に群がり、盲目に信じ込む。<br>ならばその愚か者どもを利用すればいい。そうすれば奴らにも価値が生まれるだろう」<br><br>
                 B 「なぜこの世は強者のみを優遇し、苦しんでいる者たちには見て見ぬふりを決め込むのか。<br>であれば世界の代わりに私が救おう。待っていてくれ」<br><br>
                 C 「太陽が顔を出せば元気が湧き上がり、月が挨拶すれば安らぎの時が訪れる。<br>私たち警察はルールを設けることでそんなありふれた日々を守りたい」<br><br>
-                D 「心配いらねぇよ、あの人の場所なら警察が来ることなんてあり得ない。<br>なんかあっても解決してくれるし、金も貸してくれるからな。何してんだよ。ほら、行こうぜ！」とある</p>                
+                D 「心配いらねぇよ、あの人の場所なら警察が来ることなんてあり得ない。<br>なんかあっても解決してくれるし、金も貸してくれるからな。何してんだよ。ほら、行こうぜ！」<br>
+                と書いてあるらしい<br><br>
+                扉に鍵はついていないらしいが、それぞれの部屋を探すには時間が足りない……<br>
+                扉に書いてある謎を解いて、”宝”の隠し場所を見つけよう！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 1-</span>"宝"の隠れた金庫を特定しろ！</h2>
  <!--  YouTube貼り付け
               <div class="youtube__container">
                 <div class="youtube">
@@ -65,7 +66,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE1解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>部屋のアルファベットを大文字で入力</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
               v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
@@ -90,10 +91,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">お宝のありかはCの部屋だった<br>
-                さぁこのままお宝を取ってしまおう!<br>
-                残りの謎をとき、次に進もう！</div>
+              <div class="clear-message__title">MISSION １  クリア！</div>
+              <div class="clear-message__content">"宝"が隠れている部屋はCだった！<br>
+                残りの謎をとき、このままお宝を頂こう！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -112,16 +112,17 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 2-</span>宝のある金庫に潜入しよう！</h2>
               <p class="text-center">AM0:10<br>
-                お宝はもう目前、ただ扉には鍵穴はなく<br>
-                不思議な記号と横の方にダイヤル錠が目にはいる…<br>
+                お宝の入った金庫はもう目の前だ。<br>
+                ただ扉には鍵穴はなく<br>
+                不思議な記号と横の方にある、アルファベットと数字のダイヤル錠が目にはいる……<br>
                 謎を解きお宝の隠された金庫をあけよう！</p>
             </div>
           </div>
+          <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 2-</span>宝の入った金庫を開錠しよう！</h2>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを大文字で入力</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。
@@ -187,8 +188,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">お目当てのお宝は手に入れた<br>
+              <div class="clear-message__title">MISSION 2　クリア！</div>
+              <div class="clear-message__content">金庫には大量の金品と<br>
+                この屋敷の主の犯罪の証拠が入っていた！<br>
                 あとは脱出するだけだ！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
@@ -204,11 +206,12 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 3-</span>地下から脱出しよう！</h2>
             <p class="text-center">……！！
-              館は勿論のこと地図にもからくりがあったらしい<br>
-              施錠されていないドアや地図上の謎が変わってしまった…<br>
-              解いて早く1階に向かわせよう</p>
+              からくり屋敷とはからくりが多い屋敷ではなく<br>
+              屋敷自体がからくりだった！<br><br>
+              こうなると一階に登るための出口も変わっているだろう。<br>
+              この屋敷のからくりを解いて早く1階に向かわせよう。</p>
+           　　<h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">-MISSION 3-</span>地下から脱出しよう！</h2>
             <figure class="image__container">
               <img src="assets/images/ステップ 3.png" alt="">
             </figure>
