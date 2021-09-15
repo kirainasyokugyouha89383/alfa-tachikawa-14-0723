@@ -21,7 +21,7 @@ const app = Vue.createApp({
           q1: 'C',
         },
         stage2: {
-          q1: 'KAJK',
+          q1: 'KAJQ',
           // q2: 'えええ',
           // q3: 'おおお'
         },
