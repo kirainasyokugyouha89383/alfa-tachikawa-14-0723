@@ -497,7 +497,10 @@ button {
   width: 288px;
   margin: 0;
 }
-
+.final-button {
+  display: flex;
+  justify-content: center;
+}
 /********************
 * Utility
 ********************/
